@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ABC HOTEL</title>
+<link rel="shortcut icon" href="image1.png" type="image/png">
+</head>
+<style>
+h1 { font-weight: bold; color: #fff; font-size: 45px; }
+
+  body {
+  background-image: url('1900901.jpg');
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+  background-size: cover;
+}
+
+span1{
+  background-color: #f18973;
+}
+span2{
+  background-color: #80ced6;
+}
+</style>
+
+<body>
+ <form action="login-extract.php" method="POST">
+<center>
+<h1><span1>WELCOME TO ABC HOTEL</span1></h1>
+<br><br><br>
+
+<h2><span2>LOGIN TO BOOK YOUR ORDER</span2></h2>
+  <table background="php2.jpg" height="400" border="1" width="600">
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="977">977</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+ <td width="20%"><b></b></td>
+            <td><b><input type="submit" value="Submit" name="submit"></b></td>
+       
+    </tr>
+   
+</center>
+  </table>
+ </form>
+</body>
+</html>
