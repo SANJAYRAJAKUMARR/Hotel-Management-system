@@ -1,2 +1,2 @@
-# project2
-hotel management system
+# HTML,CSS,JAVASCRIPT-FRONT END
+  PHP AND MYSQL -BACK END
